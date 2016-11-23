@@ -1,0 +1,124 @@
+--- !ruby/object:Library
+books:
+- &4011460 !ruby/object:Book
+  title: The Forsyte Saga
+  author: &4011500 !ruby/object:Author
+    name: Alan Moore
+    biography: He was born to semi-proletarian parents, who were attached to circles
+      with strong revolutionary tendencies and also had a profound interest in philosophy.
+      Camus came to France when he was 25 years old. Albert Camus always had strong
+      political tendencies; the man in him and those times met, which led to his involvement
+      in the resistance movement.
+- &4010980 !ruby/object:Book
+  title: All the Light We Cannot See
+  author: &4011060 !ruby/object:Author
+    name: Agatha Christie
+    biography: Albert Camus was born in 1913 and was a chief literary figure in non-metropolitan
+      French Literature. In addition, he was also a journalist and regarded as a keen
+      philosopher of the 20th century. His origins lied in Algeria, and there are
+      major influences in his thoughts and work from there.
+- &3995720 !ruby/object:Book
+  title: A Tale for the Time Being
+  author: &3995760 !ruby/object:Author
+    name: A.A.Milne
+    biography: Aftesomr e time, Camus left Algiers to travel Central Europe. Long-standing
+      problems with Simone, due to her intense drug addiction, led to the break-up
+      of their marriage. However, despite problems, he still managed to produce his
+      own play that year The Revolt in Austria. In 1937, Albert also managed to complete
+      his book  A Happy Death, although it was not published during the time he was
+      alive.
+- &3995360 !ruby/object:Book
+  title: ! 'Fugitive Pieces: A Novel'
+  author: &3995420 !ruby/object:Author
+    name: Albert Camus
+    biography: In the years 1934-1936, he was married to Simone Hie, who was the daughter
+      of a rich ophthalmologist. Camus is entry in the Communist Part in 1934 was
+      mostly due to the increase in fascism in Europe, as he was entrusted with the
+      responsibility of doing propaganda work among the Muslims. However, his association
+      with the Communist party could not be sustained, and by 1935 he felt a sense
+      of disillusionment. Therefore, he invested all his creative energies into the
+      theatre group, Theatre du Travail, where he simultaneously worked as an actor,
+      director, and playwright. Consequently, he also formed a philosophy of moralism
+      that further led to his bizarre ideas. He posited that this state can only exist
+      if God is absent.
+- *3995360
+- *4011460
+- *4011460
+- *4010980
+- *4010980
+- *4010980
+orders:
+- &4011200 !ruby/object:Order
+  book: *4011460
+  reader: &4011260 !ruby/object:Reader
+    name: Bill
+    email: Canada
+    city: street
+    street: house
+    house: ''
+  date: 2016-10-19 13:21:48.149332461 +03:00
+- &4010760 !ruby/object:Order
+  book: *4010980
+  reader: &4010840 !ruby/object:Reader
+    name: Anton
+    email: Canada
+    city: street
+    street: house
+    house: ''
+  date: 2016-10-19 13:21:48.149336285 +03:00
+- !ruby/object:Order
+  book: *3995720
+  reader: &3995560 !ruby/object:Reader
+    name: John
+    email: Canada
+    city: street
+    street: house
+    house: ''
+  date: 2016-10-19 13:21:48.149320490 +03:00
+- &4011580 !ruby/object:Order
+  book: *3995360
+  reader: &4011620 !ruby/object:Reader
+    name: Danna
+    email: Canada
+    city: street
+    street: house
+    house: ''
+  date: 2016-10-19 13:21:48.149328206 +03:00
+- *4011580
+- *4011200
+- *4011200
+- *4010760
+- *4010760
+- *4010760
+readers:
+- *4011260
+- *4010840
+- *3995560
+- *4011620
+- *4011620
+- *4011260
+- *4011260
+- *4010840
+- *4010840
+- *4010840
+authors:
+- *4011500
+- *4011060
+- *3995760
+- *3995420
+- *3995420
+- *4011500
+- *4011500
+- *4011060
+- *4011060
+- *4011060
+
+
+
+
+
+
+
+
+
+
