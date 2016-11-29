@@ -1,4 +1,3 @@
-
 require_relative 'book.rb'
 require_relative 'order.rb'
 require_relative 'reader.rb'
@@ -33,12 +32,3 @@ class Library
   end
 
 end
-
-lib = Library.new
-lib.load_content
-
-p lib.get_most_popular_book
-p lib.get_most_popular_reader
-p lib.three_most_popular_books
-
-
